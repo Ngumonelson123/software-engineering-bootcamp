@@ -94,4 +94,4 @@ Date:   Fri Sep 19 21:53:30 2025 +0300
 - `git config --global --list` → Show global Git configs
 
 ---
-✅ This completes the Git checkpoint project as per the instructions.
+This completes the Git checkpoint project as per the instructions.
