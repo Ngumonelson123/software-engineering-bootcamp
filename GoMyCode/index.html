@@ -4,200 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #fafafa;
-    }
-    header {
-      background: #333;
-      color: #fff;
-      padding: 1rem 0;
-    }
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #333;
-      margin-bottom: 1rem;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-      background: #fff;
-    }
-    table th, table td {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: center;
-    }
-    table th {
-      background: #f0f0f0;
-    }
-    form {
-      max-width: 500px;
-      margin: 1rem auto;
-      background: #fff;
-      padding: 1rem;
-      border-radius: 5px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    form label {
-      display: block;
-      margin: 8px 0 4px;
-      font-weight: bold;
-    }
-    form input, form textarea, form button {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-    form button {
-      background: #333;
-      color: #fff;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    form button:hover {
-      background: #555;
-    }
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- Navbar -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <header class="header">
+    <nav class="navbar container">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#work">Work</a></li>
+        <li class="nav-item"><a href="#resume">Resume</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Home Section -->
-  <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is my personal portfolio showcasing my work, skills, and experience.</p>
-    <video width="100%" controls>
-      <source src="sample-video.mp4" type="video/mp4">
-      Your browser does not support HTML video.
-    </video>
+  <section id="home" class="section">
+    <div class="container section-content">
+      <h1 class="hero-title">Welcome to My Portfolio</h1>
+      <p class="hero-subtitle">This is my personal portfolio showcasing my work, skills, and experience.</p>
+      <video class="media-element" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>
+    </div>
   </section>
 
   <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m Nelson Ngumo, a DevOps Engineer passionate about building innovative web solutions.</p>
-    <ul>
-      <li>Infrastructure as Code (IaC)</li>
-      <li>Continuous Integration/Deployment (CI/CD)</li>
-      <li>Cloud Computing (AWS, Azure, GCP)</li>
-      <li>Containerization (Docker, Kubernetes)</li>
-      <li>Monitoring and Logging</li>
-    </ul>
+  <section id="about" class="section">
+    <div class="container section-content">
+      <h2 class="section-title">About Me</h2>
+      <p>Hello! I'm Nelson Ngumo, a DevOps Engineer passionate about building innovative web solutions.</p>
+      <ul class="skills-list">
+        <li class="skill-item">Infrastructure as Code (IaC)</li>
+        <li class="skill-item">Continuous Integration/Deployment (CI/CD)</li>
+        <li class="skill-item">Cloud Computing (AWS, Azure, GCP)</li>
+        <li class="skill-item">Containerization (Docker, Kubernetes)</li>
+        <li class="skill-item">Monitoring and Logging</li>
+      </ul>
+    </div>
   </section>
 
   <!-- Work Section -->
-  <section id="work">
-    <h2>My Work</h2>
-    <p>Here are some of my projects:</p>
-    <table>
-      <tr>
-        <th>Project</th>
-        <th>Description</th>
-        <th>Link</th>
-      </tr>
-      <tr>
-        <td>Usenlease</td>
-        <td>Lease and Rent Website application</td>
-        <td><a href="#">View Project</a></td>
-      </tr>
-      <tr>
-        <td>Portfolio</td>
-        <td>My personal portfolio website</td>
-        <td><a href="#">View Portfolio</a></td>
-      </tr>
-      <tr>
-        <td>Blog Platform</td>
-        <td>A platform for creating and sharing blogs</td>
-        <td><a href="#">View Blog</a></td>
-      </tr>
-    </table>
+  <section id="work" class="section">
+    <div class="container section-content">
+      <h2 class="section-title">My Work</h2>
+      <p>Here are some of my projects:</p>
+      <table class="projects-table">
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Usenlease</td>
+          <td>Lease and Rent Website application</td>
+          <td><a href="#" class="project-link">View Project</a></td>
+        </tr>
+        <tr>
+          <td>Portfolio</td>
+          <td>My personal portfolio website</td>
+          <td><a href="#" class="project-link">View Portfolio</a></td>
+        </tr>
+        <tr>
+          <td>Blog Platform</td>
+          <td>A platform for creating and sharing blogs</td>
+          <td><a href="#" class="project-link">View Blog</a></td>
+        </tr>
+      </table>
+    </div>
   </section>
 
   <!-- Resume Section -->
-  <section id="resume">
-    <h2>My Resume</h2>
-    <p>Here is a quick summary of my skills and experiences:</p>
-    <ul>
-      <li>DevOps Engineering</li>
-      <li>Cloud Computing (AWS, Azure, GCP)</li>
-      <li>Containerization (Docker, Kubernetes)</li>
-      <li>CI/CD Implementation</li>
-      <li>Infrastructure as Code (Terraform, Ansible)</li>
-      <li>Backend Development (Node.js, Python)</li>
-      <li>Database Management (MySQL, PostgreSQL, MongoDB)</li>
-    </ul>
-    <audio controls>
-      <source src="sample-audio.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+  <section id="resume" class="section">
+    <div class="container section-content">
+      <h2 class="section-title">My Resume</h2>
+      <p>Here is a quick summary of my skills and experiences:</p>
+      <ul class="skills-list">
+        <li class="skill-item">DevOps Engineering</li>
+        <li class="skill-item">Cloud Computing (AWS, Azure, GCP)</li>
+        <li class="skill-item">Containerization (Docker, Kubernetes)</li>
+        <li class="skill-item">CI/CD Implementation</li>
+        <li class="skill-item">Infrastructure as Code (Terraform, Ansible)</li>
+        <li class="skill-item">Backend Development (Node.js, Python)</li>
+        <li class="skill-item">Database Management (MySQL, PostgreSQL, MongoDB)</li>
+      </ul>
+      <audio class="media-element" controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
+  <section id="contact" class="section">
+    <div class="container section-content">
+      <h2 class="section-title">Contact Me</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" id="name" name="name" class="form-input" required>
+        </div>
 
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" required>
+        <div class="form-group">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" id="email" name="email" class="form-input" required>
+        </div>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+        </div>
 
-      <button type="submit">Send</button>
-    </form>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
   </footer>
 

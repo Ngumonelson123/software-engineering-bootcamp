@@ -12,6 +12,12 @@ A personal portfolio website showcasing my work, skills, and experience as a Dev
 - Contact form
 - Video and audio media support
 
+## Screenshots
+
+![Portfolio Screenshot 1](screenshot-images/Screenshot%20from%202025-10-06%2021-11-45.png)
+![Portfolio Screenshot 2](screenshot-images/Screenshot%20from%202025-10-06%2021-11-52.png)
+![Portfolio Screenshot 3](screenshot-images/Screenshot%20from%202025-10-06%2021-11-57.png)
+
 ## Sections
 
 - **Home**: Welcome message with video element
@@ -23,13 +29,16 @@ A personal portfolio website showcasing my work, skills, and experience as a Dev
 ## Technologies Used
 
 - HTML5
-- CSS3
+- CSS3 (External stylesheet)
+- Roboto font (Google Fonts)
 - Responsive design
+- Modern UI/UX with gradients and animations
 
 ## How to Run
 
 1. Open `index.html` in any web browser
-2. Navigate through sections using the top navigation menu
+2. Navigate through sections using the inline navigation menu
+3. Ensure `styles.css` is in the same directory for proper styling
 
 ## Contact
 
