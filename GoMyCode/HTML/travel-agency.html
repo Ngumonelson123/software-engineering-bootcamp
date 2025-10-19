@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Travel Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+    .destination-card img {
+      height: 250px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="fas fa-plane me-2"></i>Wanderlust Travel
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container text-center">
+      <h1 class="display-3 fw-bold mb-4">Discover Your Next Adventure</h1>
+      <p class="lead mb-4 fs-4">Explore breathtaking destinations around the world with our expertly crafted travel experiences</p>
+      <a href="#destinations" class="btn btn-warning btn-lg px-5 py-3">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Popular Destinations</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card destination-card h-100 shadow">
+            <img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Santorini">
+            <div class="card-body">
+              <h5 class="card-title">Santorini, Greece</h5>
+              <p class="card-text">Experience the stunning sunsets and white-washed buildings of this iconic Greek island paradise.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card destination-card h-100 shadow">
+            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Bali">
+            <div class="card-body">
+              <h5 class="card-title">Bali, Indonesia</h5>
+              <p class="card-text">Discover tropical beaches, ancient temples, and vibrant culture in this Indonesian gem.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card destination-card h-100 shadow">
+            <img src="https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Paris">
+            <div class="card-body">
+              <h5 class="card-title">Paris, France</h5>
+              <p class="card-text">Fall in love with the City of Light's romantic charm, world-class cuisine, and iconic landmarks.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tours Section -->
+  <section id="tours" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Tour Packages</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="accordion" id="tourAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour1">
+                  European Grand Tour - 14 Days
+                </button>
+              </h2>
+              <div id="tour1" class="accordion-collapse collapse show" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                  <p>Explore the best of Europe with visits to Paris, Rome, Barcelona, and Amsterdam. Includes guided tours, accommodation, and transportation.</p>
+                  <p><strong>Starting from $2,999 per person</strong></p>
+                  <a href="#" class="btn btn-outline-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour2">
+                  Asian Adventure - 10 Days
+                </button>
+              </h2>
+              <div id="tour2" class="accordion-collapse collapse" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                  <p>Discover the wonders of Asia with stops in Tokyo, Bangkok, and Bali. Experience diverse cultures, cuisines, and landscapes.</p>
+                  <p><strong>Starting from $2,499 per person</strong></p>
+                  <a href="#" class="btn btn-outline-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour3">
+                  African Safari - 7 Days
+                </button>
+              </h2>
+              <div id="tour3" class="accordion-collapse collapse" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                  <p>Experience the wildlife of Kenya and Tanzania with game drives, luxury lodges, and unforgettable safari adventures.</p>
+                  <p><strong>Starting from $3,499 per person</strong></p>
+                  <a href="#" class="btn btn-outline-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="destination" class="form-label">Destination of Interest</label>
+              <select class="form-select" id="destination">
+                <option selected>Choose a destination...</option>
+                <option value="europe">Europe</option>
+                <option value="asia">Asia</option>
+                <option value="africa">Africa</option>
+                <option value="americas">Americas</option>
+                <option value="oceania">Oceania</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Tell us about your dream vacation..."></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg px-5">Send Inquiry</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2024 Wanderlust Travel Agency. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
