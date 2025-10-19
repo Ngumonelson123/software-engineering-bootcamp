@@ -1,39 +1,64 @@
-# My Portfolio
+# Nelson Ngumo - DevOps Engineer Portfolio
 
-A personal portfolio website showcasing my work, skills, and experience as a DevOps Engineer.
+A professional portfolio website showcasing my expertise in DevOps engineering, cloud infrastructure, and automation technologies.
 
-## Features
+## 🚀 Features
 
-- Responsive design
-- Navigation menu with smooth scrolling
-- About section with skills overview
-- Work projects table
-- Resume section with audio element
-- Contact form
-- Video and audio media support
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Interactive Navigation**: Smooth scrolling between sections
+- **Multimedia Integration**: Video introductions and audio elements
+- **Professional Showcase**: Comprehensive project portfolio
+- **Contact Integration**: Direct communication form
 
-## Sections
+## 📋 Sections
 
-- **Home**: Welcome message with video element
-- **About**: Personal introduction and skills list
-- **Work**: Projects showcase in table format
-- **Resume**: Skills summary with audio element
-- **Contact**: Contact form for inquiries
+- **Home**: Professional introduction with welcome video
+- **About**: DevOps expertise, skills, and professional background
+- **Work**: Featured projects including:
+  - E-commerce Platform Development
+  - Mobile App Backend Services
+  - Cloud Infrastructure Projects
+- **Resume**: Technical skills overview with audio presentation
+- **Contact**: Professional contact form and information
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- Responsive design
+- **Frontend**: HTML5, CSS3
+- **Design**: Responsive web design principles
+- **Media**: HTML5 video and audio elements
+- **Styling**: Modern CSS with flexbox and grid layouts
 
-## How to Run
+## 🔧 DevOps Skills Highlighted
 
-1. Open `index.html` in any web browser
-2. Navigate through sections using the top navigation menu
+- Cloud Infrastructure (AWS, Azure, GCP)
+- Containerization (Docker, Kubernetes)
+- CI/CD Pipeline Development
+- Infrastructure as Code (Terraform, CloudFormation)
+- Monitoring and Logging Solutions
+- Automation and Scripting
 
-## Contact
+## 🚀 Quick Start
 
-Nelson Ngumo - DevOps Engineer
+1. Clone or download the repository
+2. Open `index.html` in your preferred web browser
+3. Navigate through sections using the navigation menu
+4. View projects and contact information
+
+## 📁 Project Structure
+
+```
+├── index.html          # Main portfolio page
+├── styles.css          # Styling and responsive design
+├── assets/            # Media files (videos, audio, images)
+└── README.md          # Project documentation
+```
+
+## 📞 Contact
+
+**Nelson Ngumo**  
+DevOps Engineer  
+
+Feel free to reach out through the contact form on the website or connect with me professionally.
 
 ---
-© 2025 My Portfolio. All Rights Reserved.
+© 2025 Nelson Ngumo Portfolio. All Rights Reserved.
