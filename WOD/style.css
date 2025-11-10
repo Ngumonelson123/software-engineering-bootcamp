@@ -1,0 +1,35 @@
+/* Centering container */
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* The box that changes color */
+#color-box {
+  width: 300px;
+  height: 200px;
+  background-color: #3498db; /* default color */
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* The button */
+#change-color-btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#change-color-btn:hover {
+  opacity: 0.8;
+}
+
+/* Current color text */
+#current-color {
+  margin-top: 10px;
+  font-weight: bold;
+}
