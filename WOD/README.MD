@@ -24,6 +24,7 @@ WOD/
 ├── scripts.js      # JavaScript functionality
 └── README.MD       # Project documentation
 ```
+![Portfolio Screenshot 1](Screenshot from 2025-11-10 20-04-46.png)
 
 ## How to Run
 
@@ -37,7 +38,7 @@ WOD/
 - Generates random hex colors using `Math.random()`
 - Updates DOM elements dynamically
 - Event-driven color changes on button click
-
+![Portfolio Screenshot 1](Screenshot from 2025-11-10 20-04-52.png)
 ### CSS Features
 - Centered container layout
 - Rounded corners and hover effects
